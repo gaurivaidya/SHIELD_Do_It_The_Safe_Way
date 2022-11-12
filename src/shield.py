@@ -24,7 +24,7 @@ def initial_seed(): # required to initiate prng
 def key512(option, a):
 	initial_seed()
 	start=time.time()
-	f = open("indi1.txt", "r")
+	f = open("individuals1.txt", "r")
 	read_lines=f.readlines()
 	lines=read_lines[-1]
 	f.close();		
