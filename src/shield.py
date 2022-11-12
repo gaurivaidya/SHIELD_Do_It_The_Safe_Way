@@ -22,7 +22,7 @@ def initial_seed(): # required to initiate prng
 	
 # keys with size 512
 def key512(option, a):
-	init_prng()
+	initial_seed()
 	start=time.time()
 	f = open("indi1.txt", "r")
 	read_lines=f.readlines()
